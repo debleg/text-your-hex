@@ -10,6 +10,7 @@ export default [
   pluginJs.configs.recommended,
   pluginReact.configs.flat.recommended,
   {
+    extends: ["plugin:react/jsx-runtime"],
     rules: {
       "react/prop-types": 0,
     },
